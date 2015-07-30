@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#  script for checking if a disk is full and reporting through AWS if it is.
+#  Usage should be self-explanatory.  I hope.
+
 if  [ $# -lt 5 ]
 then
 	echo "usage: aws_diskfull_checker.sh <percentage> <max days old> <file sizes> <topic> devices"
