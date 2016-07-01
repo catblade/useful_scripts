@@ -6,7 +6,7 @@
 if  [ $# -lt 5 ]
 then
 	echo "usage: aws_diskfull_checker.sh <percentage> <max days old> <file sizes> <topic> devices"
-	echo "example: aws_diskfull_checker.sh 95 2 100M arn:aws:sns:us-east-1:493847008801:SpecialMarlow /dev/xvda1 /dev/md0"
+	echo "example: aws_diskfull_checker.sh 95 2 100M arn:aws:sns:us-east-1:<accountnumber>:SpecialMarlow /dev/xvda1 /dev/md0"
 	exit 1
 fi
 
